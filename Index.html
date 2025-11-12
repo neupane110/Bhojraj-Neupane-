@@ -1,0 +1,169 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bhojraj Neupane — Web Design & Digital Marketing</title>
+  <meta name="description" content="Bhojraj Neupane — web design, digital marketing, video editing. Based in Bharatpur, Chitwan, Nepal.">
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#06b6d4; --muted:#94a3b8; --glass: rgba(255,255,255,0.03);
+      --radius:14px; --maxw:1000px; --ff: 'Segoe UI', Roboto, system-ui, -apple-system;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:var(--ff);background:linear-gradient(180deg,#071026 0%, #0b1220 100%);color:#e6eef6}
+    .wrap{max-width:var(--maxw);margin:32px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:18px;box-shadow:0 8px 30px rgba(2,6,23,0.7);}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:16px;overflow:hidden;flex:0 0 120px;border:2px solid rgba(255,255,255,0.06);}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    h1{margin:0;font-size:1.6rem}
+    .role{color:var(--accent);font-weight:600}
+    .meta{color:var(--muted);font-size:0.95rem;margin-top:6px}
+    .top-actions{margin-left:auto;display:flex;gap:10px}
+    .btn{background:var(--glass);padding:8px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);cursor:pointer;color:inherit;text-decoration:none}
+    nav{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
+    nav a{color:var(--muted);text-decoration:none;font-size:0.95rem}
+    main{display:grid;grid-template-columns:1fr;gap:18px;margin-top:20px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01));padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    ul.values{display:flex;gap:10px;flex-wrap:wrap;padding:0;list-style:none;margin:0}
+    ul.values li{background:rgba(255,255,255,0.02);padding:8px 10px;border-radius:10px;color:var(--muted);font-weight:600}
+    .services ul{padding-left:18px}
+    .contact-row{display:flex;gap:10px;align-items:center}
+    .contact-row a{color:var(--accent);text-decoration:none}
+    footer{margin-top:18px;color:var(--muted);font-size:0.9rem;text-align:center}/* responsive */
+@media (max-width:840px){.grid-2{grid-template-columns:1fr}.avatar{width:96px;height:96px;flex:0 0 96px}}
+
+/* small utilities */
+.muted{color:var(--muted)}
+.badge{display:inline-block;padding:6px 8px;border-radius:999px;background:rgba(255,255,255,0.02);font-weight:700}
+.projects-list{display:flex;flex-direction:column;gap:10px}
+.project{padding:10px;border-radius:10px;background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.02)}
+form input,form textarea{width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit;margin-top:8px}
+form button{margin-top:10px}
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar"><img src="image.jpg" alt="Bhojraj Neupane"></div>
+      <div>
+        <h1>Bhojraj Neupane <span class="muted">— web design & digital marketing</span></h1>
+        <div class="role">Web design · Digital marketing · Video editing</div>
+        <div class="meta">Bharatpur-15, Chitwan, Nepal · <span class="badge">5k followers</span></div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="top-actions">
+        <a class="btn" href="mailto:neupanearjun110@gmail.com">Email me</a>
+        <a class="btn" href="https://www.facebook.com/share/1KLcs7CD3e/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </header><main>
+  <section id="about" class="card">
+    <h2>About me</h2>
+    <p>Bhojraj Neupane has spent the last 2 years actively working in digital marketing and video editing. He builds professional, conversion-focused websites and creates engaging video content. He also teaches online courses in digital marketing.</p>
+    <div style="margin-top:10px">
+      <strong>Core values</strong>
+      <ul class="values">
+        <li>Transparent</li>
+        <li>Collaborative</li>
+        <li>Audacious</li>
+        <li>Growth‑oriented</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="services" class="card services">
+    <h2>My services</h2>
+    <div class="grid-2">
+      <div>
+        <ul>
+          <li>Digital marketing — strategy, ads, social growth</li>
+          <li>Web design — responsive landing pages & portfolios</li>
+          <li>Video editing — short-form, tutorials, promos</li>
+        </ul>
+      </div>
+      <div>
+        <strong>Achievements</strong>
+        <ul>
+          <li>5k followers on social media</li>
+          <li>Video editor</li>
+          <li>Online teaching for digital marketing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="card">
+    <h2>Projects</h2>
+    <div class="projects-list">
+      <div class="project">
+        <strong>Created the channel</strong>
+        <div class="muted">A project focused on video content and audience growth.</div>
+      </div>
+      <div class="project">
+        <strong>Digital marketing management</strong>
+        <div class="muted">Handled campaigns, content calendars, and analytics.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <div class="contact-row">
+      <div>
+        <div><strong>Email</strong></div>
+        <div><a href="mailto:neupanearjun110@gmail.com">neupanearjun110@gmail.com</a></div>
+      </div>
+      <div style="margin-left:16px">
+        <div><strong>Facebook</strong></div>
+        <div><a href="https://www.facebook.com/share/1KLcs7CD3e/" target="_blank" rel="noopener">facebook.com/share/1KLcs7CD3e</a></div>
+      </div>
+    </div>
+
+    <form id="contactForm" onsubmit="return handleSubmit(event)" style="margin-top:14px">
+      <label>Name</label>
+      <input id="cname" placeholder="Your name" required>
+      <label>Message</label>
+      <textarea id="cmsg" rows="4" placeholder="Write a short message" required></textarea>
+      <button class="btn" type="submit">Send (opens email)</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div>Role: web design · digital marketing · video editing</div>
+  <div style="margin-top:8px">© <span id="year"></span> Bhojraj Neupane — Built with ❤️</div>
+</footer>
+
+  </div>  <script>
+    // small helpers
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('cname').value.trim();
+      const msg = document.getElementById('cmsg').value.trim();
+      if(!name || !msg) return alert('Please add name and message');
+      const subject = encodeURIComponent('Contact from website - ' + name);
+      const body = encodeURIComponent(msg + '\n\n---\nSent from personal website');
+      window.location.href = `mailto:neupanearjun110@gmail.com?subject=${subject}&body=${body}`;
+      return false;
+    }
+
+    // smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', (ev)=>{
+        const t = document.querySelector(a.getAttribute('href'));
+        if(t){ ev.preventDefault(); t.scrollIntoView({behavior:'smooth',block:'start'}); }
+      });
+    });
+  </script></body>
+</html>
